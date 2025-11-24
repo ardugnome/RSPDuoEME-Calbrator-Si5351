@@ -3,7 +3,7 @@
 
 Si5351 si5351;
 
-unsigned long long freq  = 14414550000ULL; // 211.600000MHz x 49 = 10368.4Mhz
+unsigned long long freq  = 14415550000ULL; // 211.600000MHz x 49 = 10368.4Mhz
 
 void setup() {
 //  si5351.set_correction(+900000, SI5351_PLL_INPUT_XO);
