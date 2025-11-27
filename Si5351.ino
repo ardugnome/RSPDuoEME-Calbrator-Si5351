@@ -1,8 +1,8 @@
 /*
 Calibration routine for RSPDuoEME using Si5351 and Arduino (Nano) 
 Connections SDA-A4 SCL-A5
-Choose COM port in the RSPDuoEME and choose Auto Claibration
-Hit Start and wait 5 seconds, if necessary repeat and click Set
+Choose corresponding Arduino COM port in the RSPDuoEME menu and tick "Auto Calibration" box.
+Hit Start and wait 5 seconds, if necessary repeat above and click "Set"
 Si5351 shuts down after 5 seconds
 Nov 2025
 */
