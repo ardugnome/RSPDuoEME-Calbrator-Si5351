@@ -14,7 +14,7 @@ Si5351 si5351;
 unsigned long long freq  = 14414500000ULL; 
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600,SERIAL_8N2);
 si5351.drive_strength(SI5351_CLK0, SI5351_DRIVE_2MA); 
   si5351.init(SI5351_CRYSTAL_LOAD_8PF, SI5351_REF, 0);          
 }
